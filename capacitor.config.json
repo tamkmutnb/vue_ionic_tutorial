@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "vuetutorial",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}
