@@ -1,0 +1,102 @@
+warning: LF will be replaced by CRLF in src/router/index.js.
+The file will have its original line endings in your working directory
+[1mdiff --git a/src/router/index.js b/src/router/index.js[m
+[1mindex 339ed52..be6c804 100644[m
+[1m--- a/src/router/index.js[m
+[1m+++ b/src/router/index.js[m
+[36m@@ -1,15 +1,14 @@[m
+ import { createRouter, createWebHistory } from '@ionic/vue-router';[m
+[31m-import Home from '../views/Home.vue'[m
+[32m+[m[32mimport MemoriesPage from '../pages/MemoriesPage.vue';[m
+ [m
+[31m-const routes  = [[m
+[32m+[m[32mconst routes = [[m
+   {[m
+     path: '/',[m
+[31m-    redirect: '/home'[m
+[32m+[m[32m    redirect: '/memories'[m
+   },[m
+   {[m
+[31m-    path: '/home',[m
+[31m-    name: 'Home',[m
+[31m-    component: Home[m
+[32m+[m[32m    path: '/memories',[m
+[32m+[m[32m    component: MemoriesPage[m
+   }[m
+ ][m
+ [m
+[1mdiff --git a/src/views/Home.vue b/src/views/Home.vue[m
+[1mdeleted file mode 100644[m
+[1mindex 6835494..0000000[m
+[1m--- a/src/views/Home.vue[m
+[1m+++ /dev/null[m
+[36m@@ -1,68 +0,0 @@[m
+[31m-<template>[m
+[31m-  <ion-page>[m
+[31m-    <ion-header :translucent="true">[m
+[31m-      <ion-toolbar>[m
+[31m-        <ion-title>Blank</ion-title>[m
+[31m-      </ion-toolbar>[m
+[31m-    </ion-header>[m
+[31m-    [m
+[31m-    <ion-content :fullscreen="true">[m
+[31m-      <ion-header collapse="condense">[m
+[31m-        <ion-toolbar>[m
+[31m-          <ion-title size="large">Blank</ion-title>[m
+[31m-        </ion-toolbar>[m
+[31m-      </ion-header>[m
+[31m-    [m
+[31m-      <div id="container">[m
+[31m-        <strong>Ready to create an app?</strong>[m
+[31m-        <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>[m
+[31m-      </div>[m
+[31m-    </ion-content>[m
+[31m-  </ion-page>[m
+[31m-</template>[m
+[31m-[m
+[31m-<script>[m
+[31m-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/vue';[m
+[31m-import { defineComponent } from 'vue';[m
+[31m-[m
+[31m-export default defineComponent({[m
+[31m-  name: 'Home',[m
+[31m-  components: {[m
+[31m-    IonContent,[m
+[31m-    IonHeader,[m
+[31m-    IonPage,[m
+[31m-    IonTitle,[m
+[31m-    IonToolbar[m
+[31m-  }[m
+[31m-});[m
+[31m-</script>[m
+[31m-[m
+[31m-<style scoped>[m
+[31m-#container {[m
+[31m-  text-align: center;[m
+[31m-  [m
+[31m-  position: absolute;[m
+[31m-  left: 0;[m
+[31m-  right: 0;[m
+[31m-  top: 50%;[m
+[31m-  transform: translateY(-50%);[m
+[31m-}[m
+[31m-[m
+[31m-#container strong {[m
+[31m-  font-size: 20px;[m
+[31m-  line-height: 26px;[m
+[31m-}[m
+[31m-[m
+[31m-#container p {[m
+[31m-  font-size: 16px;[m
+[31m-  line-height: 22px;[m
+[31m-  [m
+[31m-  color: #8c8c8c;[m
+[31m-  [m
+[31m-  margin: 0;[m
+[31m-}[m
+[31m-[m
+[31m-#container a {[m
+[31m-  text-decoration: none;[m
+[31m-}[m
+[31m-</style>[m
+\ No newline at end of file[m
