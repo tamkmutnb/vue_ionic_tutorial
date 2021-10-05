@@ -8,12 +8,12 @@
         <ion-content>
             <h2>These are my memories - list to be added</h2>
             <ion-list>
-                <ion-item>Kam</ion-item>
-                <ion-item>Tong</ion-item>
-                <ion-item>Tam</ion-item>
-                <ion-item>Wasawat</ion-item>
-                <ion-item>Max</ion-item>
-                <ion-item>Aaron</ion-item>
+                <ion-item>How to be a guy?</ion-item>
+                <ion-item>Let's see what we got</ion-item>
+                <ion-item>Fly to Japan</ion-item>
+                <ion-item>Hiking Guide</ion-item>
+                <ion-item>Let's go to the beach</ion-item>
+                <ion-item>See Sea Cretures</ion-item>
                             
             </ion-list>
 
