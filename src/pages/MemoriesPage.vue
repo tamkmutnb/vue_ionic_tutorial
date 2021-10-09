@@ -1,7 +1,7 @@
 <template>
     <base-layout page-title="All Memories">
             <ion-list>
-                <ion-item>How to be a guy?</ion-item>
+                <ion-item router-link="/memories/1">How to be a guy?</ion-item>
                 <ion-item>Let's see what we got</ion-item>
                 <ion-item>Fly to Japan</ion-item>
                 <ion-item>Hiking Guide</ion-item>
